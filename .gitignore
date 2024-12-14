@@ -1,0 +1,30 @@
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# Virtual environment
+env_minimetro/
+*.venv/
+.venv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python-specific
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Generated map and asset files
+maps/generated_maps/
+assets/temp/
+
+# IDE-specific
+.vscode/
+.idea/

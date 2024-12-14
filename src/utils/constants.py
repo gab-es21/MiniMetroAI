@@ -1,0 +1,66 @@
+
+import pygame
+
+# Initialize Pygame Font
+pygame.font.init()
+
+# Font Sizes
+TITLE_FONT_SIZE = 48
+CLOCK_FONT_SIZE = 36
+SMALL_FONT_SIZE = 24
+
+# Font Objects
+TITLE_FONT = pygame.font.Font(None, TITLE_FONT_SIZE)
+CLOCK_FONT = pygame.font.Font(None, CLOCK_FONT_SIZE)
+SMALL_FONT = pygame.font.Font(None, SMALL_FONT_SIZE)
+
+# Dimensions
+WIDTH = 800
+HEIGHT = 400
+SIDEBAR_WIDTH = 150
+SCREEN_WIDTH = WIDTH + SIDEBAR_WIDTH
+BORDER_MARGIN = 20
+RIVER_MARGIN = 30
+FORBIDDEN_DISTANCE = 80
+STATION_SIZE = 25
+PASSENGER_RADIUS = 5
+STATION_SPAWN_INTERVAL = 10
+PASSENGER_SPAWN_INTERVAL = 5
+TRAIN_SIZE = 10
+TRAIN_SPEED = 1
+
+
+# Colors Map
+BEIGE = (240, 234, 214)
+DARK_BEIGE = (220, 220, 200)
+LIGHT_BLUE = (173, 216, 230)
+BLACK = (30, 30, 30)
+WHITE = (255, 255, 255)
+GREY = (200, 200, 200)
+DARK_GREY = (169, 169, 169)
+SHADOW_COLOR = (150, 150, 150)
+SIDEBAR_GRADIENT_START = (230, 230, 230)
+SIDEBAR_GRADIENT_END = (200, 200, 200)
+BUTTON_BG = (255, 255, 255)
+BUTTON_BORDER = (100, 100, 100)
+TEXT_COLOR = (50, 50, 50)
+
+# Colors Stations
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+YELLOW = (255, 255, 0)
+GREY = (128, 128, 128)
+BLUE = (0, 0, 255)
+ORANGE = (255, 165, 0)
+
+# Train Lines
+TRAIN_LINE_THICKNESS = 5
+
+# Colors Passangers
+DARK_GREY = (80, 80, 80)
+
+# Paths
+SAVE_PATH = "maps/generated"
+
+DOT_RADIUS = 2  # Increase the radius for better visibility
+GRID_SIZE = 10 # Space between each dot in the grid

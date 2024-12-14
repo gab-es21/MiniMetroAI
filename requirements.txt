@@ -1,0 +1,6 @@
+pygame
+shapely
+numpy
+matplotlib
+torch
+gym
